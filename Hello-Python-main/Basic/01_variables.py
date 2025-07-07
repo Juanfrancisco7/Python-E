@@ -1,5 +1,3 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=2938
-
 ### Variables ###
 
 my_string_variable = "My String variable"
@@ -23,7 +21,7 @@ print("Este es el valor de:", my_bool_variable)
 print(len(my_string_variable))
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
-name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
+name, surname, alias, age = "Juan", "Francisco", 'JuanFrancisco7', 31
 print("Me llamo:", name, surname, ". Mi edad es:",
       age, ". Y mi alias es:", alias)
 
@@ -34,8 +32,8 @@ print(name)
 print(age)
 
 # Cambiamos su tipo
-name = 35
-age = "Brais"
+name = 31
+age = "Juan"
 print(name)
 print(age)
 
