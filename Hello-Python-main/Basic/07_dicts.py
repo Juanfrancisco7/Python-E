@@ -1,5 +1,3 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc
-
 ### Dictionaries ###
 
 # Definición
@@ -10,13 +8,13 @@ my_other_dict = {}
 print(type(my_dict))
 print(type(my_other_dict))
 
-my_other_dict = {"Nombre": "Brais",
-                 "Apellido": "Moure", "Edad": 35, 1: "Python"}
+my_other_dict = {"Nombre": "Juan",
+                 "Apellido": "Francisco", "Edad": 31, 1: "Python"}
 
 my_dict = {
-    "Nombre": "Brais",
-    "Apellido": "Moure",
-    "Edad": 35,
+    "Nombre": "Juan",
+    "Apellido": "FRancisco",
+    "Edad": 31,
     "Lenguajes": {"Python", "Swift", "Kotlin"},
     1: 1.77
 }
@@ -32,12 +30,12 @@ print(len(my_dict))
 print(my_dict[1])
 print(my_dict["Nombre"])
 
-print("Moure" in my_dict)
+print("Francisco" in my_dict)
 print("Apellido" in my_dict)
 
 # Inserción
 
-my_dict["Calle"] = "Calle MoureDev"
+my_dict["Calle"] = "Calle Juanfrancisco7"
 print(my_dict)
 
 # Actualización
@@ -64,7 +62,7 @@ my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
 print((my_new_dict))
 my_new_dict = dict.fromkeys(my_dict)
 print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict, "MoureDev")
+my_new_dict = dict.fromkeys(my_dict, "JuanFrancisco7")
 print((my_new_dict))
 
 my_values = my_new_dict.values()
