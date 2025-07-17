@@ -55,6 +55,5 @@ for element in my_dict:
         continue
     print("Se ejecuta")
     
-    
 else:
     print("El bluce for para diccionario ha finalizado")
