@@ -43,7 +43,7 @@ def print_name(name, surname):
     print(f"{name} {surname}")
 
 
-print_name(surname="Moure", name="Brais")
+print_name(surname="Juan", name="Francisco")
 
 # Función con parámetros de entrada/argumentos por defecto
 
@@ -52,8 +52,8 @@ def print_name_with_default(name, surname, alias="Sin alias"):
     print(f"{name} {surname} {alias}")
 
 
-print_name_with_default("Brais", "Moure")
-print_name_with_default("Brais", "Moure", "MoureDev")
+print_name_with_default("Juan", "Francisco")
+print_name_with_default("Juan", "Francisco", "JuanFrancisco7")
 
 # Función con parámetros de entrada/argumentos arbitrarios
 
@@ -64,5 +64,5 @@ def print_upper_texts(*texts):
         print(text.upper())
 
 
-print_upper_texts("Hola", "Python", "MoureDev")
+print_upper_texts("Hola", "Python", "JuanFrancisco7")
 print_upper_texts("Hola")
